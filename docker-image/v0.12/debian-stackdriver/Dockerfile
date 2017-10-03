@@ -3,7 +3,7 @@
 
 FROM fluent/fluentd:v0.12.33-debian
 
-MAINTAINER Eduardo Silva <eduardo@treasure-data.com>
+MAINTAINER Shamsundar Dileep <dileep@headspace.com>
 USER root
 WORKDIR /home/fluent
 ENV PATH /home/fluent/.gem/ruby/2.3.0/bin:$PATH
